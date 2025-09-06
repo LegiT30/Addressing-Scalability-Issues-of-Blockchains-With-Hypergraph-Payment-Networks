@@ -13,20 +13,6 @@ The transaction simulator is based on [LNTrafficSimulator] (https://github.com/f
 - **`LNTrafficSimulator`**: The LNTrafficSimulator directory.
 - **`generate_transactions.py`**: A transcation generator file.
 
-## Overview
-
-This project aims to improve blockchain scalability by utilizing hypergraph payment networks. By leveraging the Lightning Network (LN), we demonstrate enhanced transaction throughput and reduced latency in payment processing.
-
-To achieve this, we use the LN transaction generator from LNTrafficSimulator. Our analysis identified 302 merchant nodes present in our Lightning data.
-
-## Methodology
-
-- **Transaction Sampling**: 
-  - 80% of payment target nodes are sampled using a biased distribution skewed towards merchants, with the probability proportional to their degree of importance. This approach reflects the flow of payments towards service providers.
-  - Payment sources and the remaining 20% of target nodes are sampled uniformly at random for simulation purposes.
-
-- **Payment Values**:
-  - As off-chain networks primarily facilitate micropayments, the traffic traces use a fixed payment value of 60,000 SAT, approximately 10 USD as of December 2022.
 
 ## Requirements
 
@@ -34,49 +20,5 @@ To achieve this, we use the LN transaction generator from LNTrafficSimulator. Ou
 
 ## Usage
 
-To replicate our results or conduct your own analysis, follow these steps:
+To replicate our results: Kindly go through the Readme file inside the LNTrafficSimulator directory.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Improving-Blockchain-Scalability-with-Hypergraph-Payment-Networks.git
-   cd Improving-Blockchain-Scalability-with-Hypergraph-Payment-Networks
-   ```
-
-2. Install necessary dependencies:
-   ```bash
-   python3 LNTrafficSimulator-master/setup.py
-   ```
-   
-3. Extract 'LN_data_2022.zip' into 'LNTrafficSimulator/sample_data/'
-
-4. In the 'generate_transactions.py' file, set the 'amount' and 'count' variables to set the transaction size and number of transactions, respectively.
-
-5. Run the simulation:
-   ```bash
-   python3 generate_transactions.py
-   ```
-
-## Citation
-
-If you find this work useful, please consider citing the following authors in your research:
-
-- **Arad Kotzer**
-- **Bence Ladoczki**
-- **János Tapolcai**
-- **Ori Rottenstreich**
-
-```plaintext
-@misc{Kotzer2024,
-  author = {Arad Kotzer, Bence Ladoczki, János Tapolcai and Ori Rottenstreich},
-  title = {Improving Blockchain Scalability with Hypergraph Payment Networks},
-  year = {2024}
-}
-```
-
-## Contact
-
-For questions or further information, please contact:
-
-- Name: Arad Kotzer
-- Email: aradk@campus.technion.ac.il
-- Institution: Technion
