@@ -1,8 +1,8 @@
 
-# Improving Blockchain Scalability with Hypergraph Payment Networks
+# Addressing Scalability Issues of Blockchains With Hypergraph Payment Networks
 
-This repository contains the data and scripts used in the paper **"Improving Blockchain Scalability with Hypergraph Payment Networks"**.
-In addition to the the transaction used in the paper, we add the generate_transactions.py file the allows you to create realistice LN transactions based on the LN topology.
+This repository contains the data and scripts used in the paper (1)**"Improving Blockchain Scalability with Hypergraph Payment Networks"** and adds an extra layer for simulating the research work of (2)**"Addressing Scalability Issues of Blockchains With Hypergraph Payment Networks"**.
+In addition to the the transaction used in the paper (1), there is the generate_transactions.py file that allows you to create realistice LN transactions based on the LN topology.
 The transaction simulator is based on [LNTrafficSimulator] (https://github.com/ferencberes/LNTrafficSimulator), created by Ferenc et al.
 
 ## Repository Contents
