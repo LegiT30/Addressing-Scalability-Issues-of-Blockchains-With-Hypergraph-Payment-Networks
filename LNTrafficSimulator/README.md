@@ -151,6 +151,7 @@ We provide detailed information on the output files [here](scripts/README.md).
 
 **In order to get stable daily LN node statistics, we recommend to run the simulator for multiple times over several consecutive snapshots!**
 
+<<<<<<< HEAD
 ## Running SuperNode and FHS experiments (examples)
 
 Below are example command lines to generate the topology-augmented channel files and run the simulator.  
@@ -185,3 +186,13 @@ python3 run_simulator.py preprocessed runs/fhs_5_edges_fixed.csv params.json out
 
 
 
+=======
+
+# Acknowledgements
+
+To Antoine Le Calvez (Coinmetrics) and Altangent Labs for kindly providing us their edge stream data and
+daily graph snapshots. To [Domokos M. Kelen](https://github.com/proto-n) and [Rene Pickhardt](https://github.com/renepickhardt) for insightful discussions. To our reviewers,
+Christian Decker, Cyril Grunspan and to our anonymous reviewer for their invaluable comments. Support
+from Project 2018-1.2.1-NKP-00008: Exploring the Mathematical Foundations of Artificial Intelligence and
+the “Big Data—–Momentum” grant of the Hungarian Academy of Sciences.
+>>>>>>> origin/HEAD
